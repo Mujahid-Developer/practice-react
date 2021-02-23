@@ -21,7 +21,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Future Developer</h1>
+      <div className="Title">
+        <img src={logo} alt="" srcset="" />
+        <h1>Future Developer</h1>
+      </div>
       <header className="App-header">
         <Developer
           image="https://scontent-maa2-1.xx.fbcdn.net/v/t1.0-9/152292743_453133519065311_1694000697125901491_n.jpg?_nc_cat=101&ccb=3&_nc_sid=09cbfe&_nc_ohc=Xcanc3OW8v8AX8qsd_C&_nc_ht=scontent-maa2-1.xx&oh=47d16d2d005db5b8112c42f98c2703d7&oe=605B6244"

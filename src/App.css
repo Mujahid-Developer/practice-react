@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,6 +23,16 @@
   /* font-size: calc(10px + 2vmin); */
   color: #3a3a3a;
   /* text-transform: uppercase; */
+}
+.Title {
+  display: flex;
+  justify-content: center;
+}
+.Title img {
+  width: 70px;
+}
+.Title h1 {
+  color: #61dbfb;
 }
 
 .App-link {
