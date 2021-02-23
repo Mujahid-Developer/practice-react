@@ -50,10 +50,15 @@
   padding: 20px;
   font-size: 25px;
   font-weight: 600;
+  color: #3a3a3a;
+}
+.developerStyle:hover {
+  background-color: #61dbfb;
+  color: #ffffff;
 }
 .developerStyle img {
   width: 150px;
-  border: 2px solid #585858;
+  /* border: 2px solid #585858; */
   border-radius: 50%;
 }
 
