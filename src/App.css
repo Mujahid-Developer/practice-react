@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 /* .App-logo {
@@ -14,10 +16,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cef5ff;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
@@ -40,11 +42,14 @@
 }
 
 .developerStyle {
-  width: 600px;
+  height: 300px;
+  width: 400px;
   background-color: #ffffff;
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
 .developerStyle img {
   width: 150px;

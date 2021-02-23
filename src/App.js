@@ -63,9 +63,11 @@ function App() {
   function Developer(props) {
     return (
       <div className="developerStyle">
-        <img src={props.image} alt="" srcset="" />
-        <h1>Name: {props.name}</h1>
-        <h2>Profession: {props.profession} </h2>
+        <div className="flex-container">
+          <img src={props.image} alt="" srcset="" />
+          <p>{props.name}</p>
+          <p>{props.profession} </p>
+        </div>
       </div>
     );
   }
